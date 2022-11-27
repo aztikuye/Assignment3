@@ -8,10 +8,17 @@ namespace Assignment3
 {
     internal class Q4
     {
-        public void GetReverseName()
+        public void  GetReverseName( string name)
         {
-            string name =  "Azmera" ;
-
+           
+            int len = name.Length - 1;
+            for (int i = len; i >=0; i--)
+            {
+               //return name[i].ToString();
+                Console.Write(name[i]);
+            }
+          
+        }
 
 
     }

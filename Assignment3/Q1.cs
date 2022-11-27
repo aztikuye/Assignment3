@@ -13,7 +13,7 @@ namespace Assignment3
         {
         for (int i = 1; i <= 100; i++)
             {
-            Console.Write( i + ", ");
+            Console.Write( i + ", " );
                 
             }
 
