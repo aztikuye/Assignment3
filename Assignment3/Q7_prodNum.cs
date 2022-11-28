@@ -9,23 +9,16 @@ namespace Assignment3
     internal class Q7_prodNum
     {
         public void GetNumProd()
-        { /*int num;
-        Console.WriteLine("Enter your number ");
-            num= int.Parse(Console.ReadLine());
+        {
+            int num;
+            Console.WriteLine("enter your number");
+            num = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i <= num; i++)
+            for (int i = 0; i <= 10; i++)
             {
-                Console.WriteLine(" {0} {1} {3} " ,num.ToString(), i.ToString(), num * i);
-
+                Console.WriteLine(num + "*" + i + "=" + num * i);
             }
             
-            int i = 0;
-          while(i<num-1)
-            {
-              Console.WriteLine(" {0}" + " * " + " {1}" + "="+ "{3}", num, i, (num-1)*i);
-            i++;
-            } */
-
 
         }
 

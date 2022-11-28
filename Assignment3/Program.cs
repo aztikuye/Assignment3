@@ -70,13 +70,13 @@ namespace Assignment3
             q6.isPalindrome();
 
             Console.WriteLine(); Console.WriteLine();
-            /*
+            
             Console.WriteLine("Q7: Write a C# Sharp program that takes a number as input and print its multiplication table  ");
             Console.WriteLine("=====ANSWER Q7========");
 
             Q7_prodNum q7= new Q7_prodNum();
             q7.GetNumProd();
-            */
+            
 
             Console.ReadLine();
         }
