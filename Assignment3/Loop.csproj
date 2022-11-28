@@ -52,6 +52,8 @@
     <Compile Include="Q5.cs" />
     <Compile Include="Q6_palindrome.cs" />
     <Compile Include="Q7_prodNum.cs" />
+    <Compile Include="Q8_NumWidth.cs" />
+    <Compile Include="Q9_NumOperation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

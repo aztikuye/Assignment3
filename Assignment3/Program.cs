@@ -68,15 +68,26 @@ namespace Assignment3
 
             Q6_palindrome q6 = new Q6_palindrome();
             q6.isPalindrome();
-
             Console.WriteLine(); Console.WriteLine();
-            
+
             Console.WriteLine("Q7: Write a C# Sharp program that takes a number as input and print its multiplication table  ");
             Console.WriteLine("=====ANSWER Q7========");
 
             Q7_prodNum q7= new Q7_prodNum();
             q7.GetNumProd();
-            
+            Console.WriteLine(); Console.WriteLine();
+
+            Console.WriteLine("Q8: Write a C# Sharp program that takes a number and a width ...  ");
+            Console.WriteLine("=====ANSWER Q8========");
+            Q8_NumWidth q8 = new Q8_NumWidth();
+            q8.GetTriNumWidth();
+
+            Console.WriteLine("Q9: Number operation and Circle area/perimeter ...  ");
+            Console.WriteLine("=====ANSWER Q9========");
+            Q9_NumOperation q9 = new Q9_NumOperation();
+            q9.NumOperation();
+            Console.WriteLine("=========Circle===========");
+            q9.GetCircleAreaPer();
 
             Console.ReadLine();
         }
